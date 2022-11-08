@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		02C396A44B09EDF4EDC68673 /* Pods_ClubhouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A574CB83A73E5FACA4B1BE41 /* Pods_ClubhouseTests.framework */; };
 		3C14073322386A2062A59553 /* Pods_Clubhouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6050CB121D64E86200DC4C /* Pods_Clubhouse.framework */; };
+		558817EF291AC916009B5F1F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 558817EE291AC916009B5F1F /* .gitignore */; };
 		55E9ECB028C00C0900C7A83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9ECAF28C00C0900C7A83E /* AppDelegate.swift */; };
 		55E9ECB228C00C0900C7A83E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9ECB128C00C0900C7A83E /* SceneDelegate.swift */; };
 		55E9ECB428C00C0900C7A83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9ECB328C00C0900C7A83E /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		4F5A42C47F61E5EE7AC55AFB /* Pods-ClubhouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubhouseTests.debug.xcconfig"; path = "Target Support Files/Pods-ClubhouseTests/Pods-ClubhouseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		50918C5C95A50F2214CA8AFE /* Pods-ClubhouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubhouseTests.release.xcconfig"; path = "Target Support Files/Pods-ClubhouseTests/Pods-ClubhouseTests.release.xcconfig"; sourceTree = "<group>"; };
 		5181101C759F5607260E857B /* Pods-Clubhouse-ClubhouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubhouse-ClubhouseUITests.release.xcconfig"; path = "Target Support Files/Pods-Clubhouse-ClubhouseUITests/Pods-Clubhouse-ClubhouseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		558817EE291AC916009B5F1F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		55E9ECAC28C00C0900C7A83E /* Clubhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E9ECAF28C00C0900C7A83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E9ECB128C00C0900C7A83E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,13 +103,13 @@
 				4F5A42C47F61E5EE7AC55AFB /* Pods-ClubhouseTests.debug.xcconfig */,
 				50918C5C95A50F2214CA8AFE /* Pods-ClubhouseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		55E9ECA328C00C0800C7A83E = {
 			isa = PBXGroup;
 			children = (
+				558817EE291AC916009B5F1F /* .gitignore */,
 				55E9ECAE28C00C0900C7A83E /* Clubhouse */,
 				55E9ECC528C00C0B00C7A83E /* ClubhouseTests */,
 				55E9ECCF28C00C0B00C7A83E /* ClubhouseUITests */,
@@ -277,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558817EF291AC916009B5F1F /* .gitignore in Resources */,
 				55E9ECBC28C00C0B00C7A83E /* LaunchScreen.storyboard in Resources */,
 				55E9ECB928C00C0B00C7A83E /* Assets.xcassets in Resources */,
 				55E9ECB728C00C0900C7A83E /* Main.storyboard in Resources */,
