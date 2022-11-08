@@ -8,6 +8,7 @@
 import UIKit
 
 @main
+print ("Git commit №2")
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
