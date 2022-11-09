@@ -9,6 +9,7 @@ import UIKit
 
 @main
 print ("Git commit №2")
+print ("Another print statement")
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
